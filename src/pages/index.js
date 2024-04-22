@@ -5,12 +5,12 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Main from "../components/main/main"
-import * as styles from "../components/index.module.css"
+import ExternalData from "../data/index.json"
 
 const IndexPage = () => (
   <Layout>
     <div>
-      <Main />
+      <Main data={ExternalData} />
     </div>
   </Layout>
 )
