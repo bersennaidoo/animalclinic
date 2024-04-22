@@ -6,16 +6,16 @@ const Nav = () => {
     <nav>
       <Link to="/">
         <b>Home</b>
-      </Link><br></br>
+      </Link> &nbsp;
       <Link to="/services">
         <b>Services</b>
-      </Link><br></br>
+      </Link> &nbsp;
       <Link to="/ask-the-vet">
         <b>Ask the Vet</b>
-      </Link><br></br>
+      </Link> &nbsp;
       <Link to="/contact">
         <b>Contact</b>
-      </Link><br></br>
+      </Link>
     </nav>
   )
 }
