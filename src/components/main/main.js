@@ -8,9 +8,7 @@ const Main = ({ data }) => {
       <dl>
         {data.lst.map((obj, i) => (
           <>
-            <dt key={i}>
-              <strong>{obj.dt}</strong>
-            </dt>
+            <dt key={i}>{obj.dt}</dt>
             <dd key={i}>{obj.dd}</dd>
           </>
         ))}

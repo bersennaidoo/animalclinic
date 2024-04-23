@@ -7,13 +7,13 @@ import Footer from "./footer/footer"
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div id="wrapper">
       <Header />
       <Nav />
       <main>{children}</main>
       <br></br>
       <Footer />
-    </>
+    </div>
   )
 }
 

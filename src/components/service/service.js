@@ -7,7 +7,7 @@ const Service = ({ data }) => {
       <ul>
         {data.lst.map((obj, i) => (
           <li key={i}>
-            <strong>{obj.title}</strong>
+            <span className="category">{obj.title}</span>
             <br></br>
             {obj.define}
           </li>
