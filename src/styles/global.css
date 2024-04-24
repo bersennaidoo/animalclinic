@@ -6,7 +6,7 @@ body {
 
 header {
     display: flex;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     justify-content: center;
     color: #5280C5;
     font-family: 'Times New Roman', serif;
@@ -56,5 +56,5 @@ footer {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
-    background-color: #F0F0F0;
+    background-color: #ffffff;
 }
