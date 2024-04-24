@@ -5,22 +5,33 @@ body {
 }
 
 header {
-    background-color: #003366;
-    color: #AEC3E3;
+    display: flex;
+    background-color: #f0f0f0;
+    justify-content: center;
+    color: #5280C5;
     font-family: 'Times New Roman', serif;
+    padding-bottom: 2em;
 }
 
-h1 {
-    line-height: 200%;
-    text-indent: 1em;
-}
+/*h1 {
+}*/
 
 h2 {
     font-size: 1.2em;
 }
 
 nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #c3def9;
     font-weight: bold;
+    padding: 3em 1em 1em 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5280C5;
 }
 
 dt {
