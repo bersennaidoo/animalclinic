@@ -10,7 +10,7 @@ const Nav = () => {
       <Link to="/services">
         Services
       </Link> &nbsp;
-      <Link to="/ask-the-vet">
+      <Link to="/askvet">
         Ask the Vet
       </Link> &nbsp;
       <Link to="/contact">
