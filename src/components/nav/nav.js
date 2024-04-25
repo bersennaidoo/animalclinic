@@ -4,18 +4,12 @@ import { Link } from "gatsby"
 const Nav = () => {
   return (
     <nav>
-      <Link to="/">
-        Home
-      </Link> &nbsp;
-      <Link to="/services">
-        Services
-      </Link> &nbsp;
-      <Link to="/askvet">
-        Ask the Vet
-      </Link> &nbsp;
-      <Link to="/contact">
-        Contact
-      </Link>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/services">Services</Link></li>
+        <li><Link to="/askvet">Ask the Vet</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
     </nav>
   )
 }

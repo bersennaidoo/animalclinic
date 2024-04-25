@@ -5,15 +5,13 @@ const Main = ({ data }) => {
     <>
       <h2>{data.h2}</h2>
       <p>{data.p}</p>
-      <dl>
         {data.lst.map((obj, i) => (
-          <>
-            <dt key={i}>{obj.dt}</dt>
-            <dd key={i}>{obj.dd}</dd>
-          </>
+            <section>
+            <h3 key={i}>{obj.dt}</h3>
+            <p key={i}>{obj.dd}</p>
+          </section>
         ))}
-      </dl>
-      <div>
+      <div className="address">
         Animal Clinic <br></br>
         +27-031-5785803 <br></br>
         1104 Newlands west drive <br></br>
